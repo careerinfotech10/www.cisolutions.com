@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLFORM</title>
+    <link rel="stylesheet" href="colform.css">
+    
+</head>
+<body>
+    <form action="post">
+        <table border="1" align="center" class="table">  
+                <tr>
+                    <th colspan="2">
+                    <h2 style="color:rgba(255, 0, 0, 0.781) ;" >Registration form</h2>    
+                    </th>
+               </tr>
+               
+               <tr>
+                <td id="A" rowspan="3">
+                    Registration  Course  &nbsp;  &nbsp;
+                </td>
+
+                <td>
+                     SSC <input type="checkbox" name="Course" value="SSC">
+                     HSC <input type="checkbox" name="Course" value="HSC">
+                     B.A. <input type="checkbox" name="Course" value="B.A."> <br> 
+                     
+                </td>
+                <tr> 
+                   
+                    <td>B.Sc. <input type="checkbox" name="Course" value="B.Sc">
+                        B.com. <input type="checkbox" name="Course" value="B.com"> 
+                        B.C.A. <input type="checkbox" name="Course" value="B.C.A."> <br>
+                        
+                </tr>
+                <tr>
+                  
+                    <td>
+                        NEET <input type="checkbox" name="Course" value="NEET"> 
+                        JEE <input type="checkbox" name="Course" value="JEE"><br></td>
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <b style="color:red ;">Students Details</b>
+                </td>
+            </tr>
+               <tr>
+                    <td>
+                        Students Name 
+                    </td>
+    
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td> <input type="radio" name="gender"> Male <input type="radio" name="gender"> Female</td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        Upload photo
+                    </td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" >
+                       <b style="color:red ;">Contact Details</b> 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Email ID</td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="text" maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td id="B">Address</td>
+                    <td><textarea name="address" id="add" cols="20" rows="4" placeholder="Enter you address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td><select>
+                        <option value="Maharashtra"> Mahrashtra</option>
+                        <option value="Other">Other</option>
+                        
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>District</td>
+                    <td><select>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Other">Other</option>
+                        
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button style="width: 150px;">Reset</button>
+                        <button style="width: 150px; ;">Submit</button>
+    
+                    </td>
+                    
+                </tr>
+        </table>
+    
+       </form>
+</body>
+</html>
